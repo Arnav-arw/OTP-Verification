@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A2795C02A3CA9EF0088C0AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A2795BF2A3CA9EF0088C0AE /* GoogleService-Info.plist */; };
+		6A2795C22A3CAA640088C0AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2795C12A3CAA640088C0AE /* HomeView.swift */; };
+		DE87C57A2A3B170C00A1E4BB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DE87C5792A3B170C00A1E4BB /* FirebaseAuth */; };
+		DE87C57C2A3B26E200A1E4BB /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE87C57B2A3B26E200A1E4BB /* LoginScreen.swift */; };
+		DEDDC67D2A39E8AE00C53C4F /* OTP_VerificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDC67C2A39E8AE00C53C4F /* OTP_VerificationApp.swift */; };
+		DEDDC67F2A39E8AE00C53C4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDC67E2A39E8AE00C53C4F /* ContentView.swift */; };
+		DEDDC6812A39E8B000C53C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDDC6802A39E8B000C53C4F /* Assets.xcassets */; };
+		DEDDC6842A39E8B000C53C4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDDC6832A39E8B000C53C4F /* Preview Assets.xcassets */; };
+		DEDDC68E2A39E96500C53C4F /* Verfication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDC68D2A39E96500C53C4F /* Verfication.swift */; };
+		DEDDC6912A39EBDE00C53C4F /* OTPViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDDC6902A39EBDE00C53C4F /* OTPViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A2795BF2A3CA9EF0088C0AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A2795C12A3CAA640088C0AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DE87C57B2A3B26E200A1E4BB /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		DEDDC6792A39E8AE00C53C4F /* OTP Verification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OTP Verification.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDDC67C2A39E8AE00C53C4F /* OTP_VerificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTP_VerificationApp.swift; sourceTree = "<group>"; };
+		DEDDC67E2A39E8AE00C53C4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEDDC6802A39E8B000C53C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEDDC6832A39E8B000C53C4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEDDC68D2A39E96500C53C4F /* Verfication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verfication.swift; sourceTree = "<group>"; };
+		DEDDC6902A39EBDE00C53C4F /* OTPViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewModel.swift; sourceTree = "<group>"; };
+		DEDDC6942A3A003500C53C4F /* OTP-Verification-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "OTP-Verification-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDDC6762A39E8AE00C53C4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE87C57A2A3B170C00A1E4BB /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEDDC6702A39E8AE00C53C4F = {
+			isa = PBXGroup;
+			children = (
+				DEDDC67B2A39E8AE00C53C4F /* OTP Verification */,
+				DEDDC67A2A39E8AE00C53C4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDDC67A2A39E8AE00C53C4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDC6792A39E8AE00C53C4F /* OTP Verification.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDDC67B2A39E8AE00C53C4F /* OTP Verification */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDC6942A3A003500C53C4F /* OTP-Verification-Info.plist */,
+				6A2795BF2A3CA9EF0088C0AE /* GoogleService-Info.plist */,
+				DEDDC67C2A39E8AE00C53C4F /* OTP_VerificationApp.swift */,
+				DEDDC67E2A39E8AE00C53C4F /* ContentView.swift */,
+				DEDDC68C2A39E94700C53C4F /* View */,
+				DEDDC68F2A39EBC100C53C4F /* ViewModel */,
+				DEDDC6802A39E8B000C53C4F /* Assets.xcassets */,
+				DEDDC6822A39E8B000C53C4F /* Preview Content */,
+			);
+			path = "OTP Verification";
+			sourceTree = "<group>";
+		};
+		DEDDC6822A39E8B000C53C4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDC6832A39E8B000C53C4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEDDC68C2A39E94700C53C4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDC68D2A39E96500C53C4F /* Verfication.swift */,
+				DE87C57B2A3B26E200A1E4BB /* LoginScreen.swift */,
+				6A2795C12A3CAA640088C0AE /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEDDC68F2A39EBC100C53C4F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DEDDC6902A39EBDE00C53C4F /* OTPViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDDC6782A39E8AE00C53C4F /* OTP Verification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDDC6872A39E8B000C53C4F /* Build configuration list for PBXNativeTarget "OTP Verification" */;
+			buildPhases = (
+				DEDDC6752A39E8AE00C53C4F /* Sources */,
+				DEDDC6762A39E8AE00C53C4F /* Frameworks */,
+				DEDDC6772A39E8AE00C53C4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OTP Verification";
+			packageProductDependencies = (
+				DE87C5792A3B170C00A1E4BB /* FirebaseAuth */,
+			);
+			productName = "OTP Verification";
+			productReference = DEDDC6792A39E8AE00C53C4F /* OTP Verification.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDDC6712A39E8AE00C53C4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DEDDC6782A39E8AE00C53C4F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DEDDC6742A39E8AE00C53C4F /* Build configuration list for PBXProject "OTP Verification" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEDDC6702A39E8AE00C53C4F;
+			packageReferences = (
+				DE87C5782A3B170C00A1E4BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DEDDC67A2A39E8AE00C53C4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDDC6782A39E8AE00C53C4F /* OTP Verification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDDC6772A39E8AE00C53C4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDDC6842A39E8B000C53C4F /* Preview Assets.xcassets in Resources */,
+				DEDDC6812A39E8B000C53C4F /* Assets.xcassets in Resources */,
+				6A2795C02A3CA9EF0088C0AE /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDDC6752A39E8AE00C53C4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDDC6912A39EBDE00C53C4F /* OTPViewModel.swift in Sources */,
+				DEDDC68E2A39E96500C53C4F /* Verfication.swift in Sources */,
+				DEDDC67F2A39E8AE00C53C4F /* ContentView.swift in Sources */,
+				6A2795C22A3CAA640088C0AE /* HomeView.swift in Sources */,
+				DEDDC67D2A39E8AE00C53C4F /* OTP_VerificationApp.swift in Sources */,
+				DE87C57C2A3B26E200A1E4BB /* LoginScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEDDC6852A39E8B000C53C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEDDC6862A39E8B000C53C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDDC6882A39E8B000C53C4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTP Verification/Preview Content\"";
+				DEVELOPMENT_TEAM = KH8B299556;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OTP-Verification-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnavsinghal.SportsTribeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEDDC6892A39E8B000C53C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OTP Verification/Preview Content\"";
+				DEVELOPMENT_TEAM = KH8B299556;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OTP-Verification-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arnavsinghal.SportsTribeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDDC6742A39E8AE00C53C4F /* Build configuration list for PBXProject "OTP Verification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDDC6852A39E8B000C53C4F /* Debug */,
+				DEDDC6862A39E8B000C53C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDDC6872A39E8B000C53C4F /* Build configuration list for PBXNativeTarget "OTP Verification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDDC6882A39E8B000C53C4F /* Debug */,
+				DEDDC6892A39E8B000C53C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE87C5782A3B170C00A1E4BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE87C5792A3B170C00A1E4BB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE87C5782A3B170C00A1E4BB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DEDDC6712A39E8AE00C53C4F /* Project object */;
+}
